@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[RemixLab]]></title>
+  <link href="http://remixlab.github.io/atom.xml" rel="self"/>
+  <link href="http://remixlab.github.io/"/>
+  <updated>2013-11-23T12:08:08-05:00</updated>
+  <id>http://remixlab.github.io/</id>
+  <author>
+    <name><![CDATA[RemixLab]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>

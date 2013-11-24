@@ -1,29 +1,49 @@
 ---
-layout: default
----
+# use the 'feed_aggregator' layout to generate a feed aggregator page
+layout: feed_aggregator
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+# Title to display for the feed
+title: RemixLab Feed Aggregator
+
+# maximum number of entries from each feed url to display (defaults to 5)
+# use '0' for 'no limit'
+post_limit: 0
+
+# limit on total posts for feed (defaults to 100)
+# use 0 for 'no limit'
+post_total_limit: 0
+
+# maximum post age to include: <N> { seconds | minutes | hours | days | weeks | months | years }
+# abbreviations and plurals are supported, e.g.  w, week, weeks
+# defaults to '1 year'
+# use '0 <any-unit>' for 'no limit'
+post_age_limit: 0 months
+
+# only render full content for the first <N> posts 
+# (default is 'full content for all posts')
+# use a limit of 0 to use all summaries
+# Commented by Pierre ;)
+# full_post_limit: 10
+
+# use summaries for all posts older than this 
+# (default is 'no maximum age')
+# works like post_age_limit
+# Commented by Pierre ;)
+# full_post_age_limit: 1 month
+
+# generate a 'meta-feed' atom file, with the given name 'atom.xml' (meta feeds are optional)
+# (with no directory, generates in same directory as the feed aggregator page)
+meta_feed: atom.xml
+
+# list all urls to aggregate here
+# You can either specify a single feed url, or explicitly specify 'url', 'author' 
+# and/or 'author_url' params for the feed aggregator to use.
+# feed_aggregator does its best to supply these values automatically otherwise.
+feed_list:
+  - url: http://nakednous.github.io/atom.xml
+    author: Jean Pierre Charalambos
+    author_url: http://nakednous.github.io
+  - url: http://codeanticode.wordpress.com/feed/
+    author: Andres Colubri
+    author_url: http://codeanticode.wordpress.com
+---

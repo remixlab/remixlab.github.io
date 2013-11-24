@@ -1,16 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
-  <title><![CDATA[RemixLab]]></title>
+  <title><![CDATA[RemixLab Feed Aggregator Meta Feed]]></title>
   <link href="http://remixlab.github.io/atom.xml" rel="self"/>
   <link href="http://remixlab.github.io/"/>
-  <updated>2013-11-23T18:48:20-05:00</updated>
-  <id>http://remixlab.github.io/</id>
+  <updated>2013-11-23T19:06:17-05:00</updated>
+  <id>http://remixlab.github.io/atom.xml</id>
   <author>
     <name><![CDATA[RemixLab]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+    <entry>
+      <title type="html"><![CDATA[Dandelion Matrices Handling]]></title>
+      <link href="http://remixlab.github.io/blog/2013/11/23/dandelion-matrices-handling/"/>
+      <updated>2013-11-23T19:55:28Z</updated>
+      <id>http://remixlab.github.io/blog/2013/11/23/dandelion-matrices-handling</id>
+      <author>
+        <name><![CDATA[Jean Pierre Charalambos]]></name>
+        <uri>http://nakednous.github.io</uri>
+      </author>
+      <content type="html"><![CDATA[<p>Any third party framework willing to use 
+<a href="https://github.com/remixlab/dandelion">Dandelion</a> should at least:</p>
+
+<ol>
+  <li>Implement visual hints, such as the displaying of the axes and the grid.</li>
+  <li>Define how transformation matrices should be handled.</li>
+</ol>
+
+<p>This post describe how these two tasks are carried out in ProScene2, allowing
+Processing to take full advantage of the Dandelion framework.</p>
+
+<h1 id="visual-hints-in-proscene2">Visual hints in Proscene2</h1>
+
+<p>All Dandelion visual hints are defined by the VisualHintable interface. Since 
+some of the ProScene2 splits the implementation </p>
+
+<p>provides P5Drawing2D P5Drawing3D</p>
+
+<h1 id="transformations-matrices">Transformations matrices</h1>
+
+<p>Connect dandelion to other framworks such as Processing.</p>
+
+<h1 id="approach">Approach</h1>
+
+<h1 id="examples">Examples</h1>
+
+<ol>
+  <li>Java2D</li>
+  <li>Target application has its own matrix stack</li>
+  <li>Target application misses matrix stack</li>
+</ol>
+]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[Dome projection]]></title>
+      <link href="http://codeanticode.wordpress.com/2013/09/06/dome-projection/"/>
+      <updated>2013-09-06T21:47:26Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1729</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[I have been interested in projection on spherical domes for a while, but never had the chance to experiment on an actual dome. This situation changed after I met Dave Pentecost a couple of years ago. Dave is an advocate and practitioner of the use of digital domes in education and art, and has been documenting his [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1729&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[Processing 2.0 is out! Processing 2.0 is in!]]></title>
+      <link href="http://codeanticode.wordpress.com/2013/06/04/processing-2-0-is-out-processing-2-0-is-in/"/>
+      <updated>2013-06-05T00:24:51Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1681</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[Yesterday was a very important day for the Processing project, as a new stable version, &#8220;the 2.0&#8243;, has been released. This release is the result of the hard work of a small team of volunteers over the course of the past two years, plus the fundamental support and contributions from the entire Processing community. For [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1681&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[Shaders in Processing 2.0 beta]]></title>
+      <link href="http://codeanticode.wordpress.com/2012/09/24/shaders-in-processing-2-0-beta/"/>
+      <updated>2012-09-24T14:50:43Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1674</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[Processing 2.0 beta was finally released a couple of weeks ago, with the 2.0b3 version being the latest release in the beta series at this time. The new shader API described in the previous posts (1, 2, and 3) received some tweaking and cleaning-up, so the examples mentioned earlier might not work properly. Check below [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1674&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[Shaders in Processing 2.0 – Part 3]]></title>
+      <link href="http://codeanticode.wordpress.com/2012/08/03/shaders-in-processing-2-0-part-3/"/>
+      <updated>2012-08-03T21:21:39Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1660</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[This is the last part of a series of posts about the new shader architecture in Processing 2.0. This post focuses on how to integrate low-level OpenGL calls with the standard Processing API. This integration has been possible since very early releases of the 1.0 branch, and allowed users through the use of OpenGL functions [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1660&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[Shaders in Processing 2.0 – Part 2]]></title>
+      <link href="http://codeanticode.wordpress.com/2012/08/03/shaders-in-processing-2-0-part-2/"/>
+      <updated>2012-08-03T19:04:45Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1612</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[The new capability of loading user-provided GLSL shaders into Processing&#8217;s P2D and P3D renderers opens up the possibility of customizing all the rendering operations in Processing, as well as of creating interactive graphics that would be very hard or impossible to generate otherwise. For OpenGL web applications, WebGL supports (only) programmable pipelines through GLSL shaders, [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1612&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[Shaders in Processing 2.0 – Part 1]]></title>
+      <link href="http://codeanticode.wordpress.com/2012/08/02/shaders-in-processing-2-0-part/"/>
+      <updated>2012-08-02T18:12:35Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1570</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[The new OpenGL renderers in Processing 2.0 (P2D/P3D) rely extensively on GLSL shaders. Although in most common situations the use of shaders is invisible to the user, Processing includes a new PShader class that allows to apply custom shaders to the drawing of the sketch. This post describes the shader architecture in Processing 2.0, and [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1570&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[OpenGL in Processing 2.0 alpha 5]]></title>
+      <link href="http://codeanticode.wordpress.com/2012/03/26/opengl-in-processing-2-0-alpha-5/"/>
+      <updated>2012-03-26T22:12:48Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1485</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[The march towards the 2.0 version of Processing reached an important milestone with the alpha 5 release, available for download since last Friday. The detailed list of changes is here, while the wiki offers a more in-depth discussion of the new features and ongoing changes. A major update in alpha 5 is the inclusion of the [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1485&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[A couple of GSVideo tips]]></title>
+      <link href="http://codeanticode.wordpress.com/2012/02/23/gsvideo-tips/"/>
+      <updated>2012-02-24T02:10:38Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1465</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[GSVideo is a Processing library I have been working on for almost four years now (!). It improves video support in Processing by using GStreamer as the underlying multimedia toolkit. The latest release is 1.0.0 and it should be used exclusively with Processing 1.x (the alpha releases of Processing 2.0 already include a simplified version [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1465&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[Syphon Client working in Processing]]></title>
+      <link href="http://codeanticode.wordpress.com/2012/02/21/syphon-client-working-in-processing/"/>
+      <updated>2012-02-21T23:54:24Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1449</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[Syphon is an OSX framework to share frames between applications. The authors of Syphon, Tom Butterworth and Anton Marini, made it very easy to create Syphon plugins for other languages, frameworks, VJ&#8217;ing and mapping tools, etc. So a while ago I wrote a simple Processing library that allowed to send frames out. This was quite [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1449&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
+  
+    <entry>
+      <title type="html"><![CDATA[OpenCV 2 in Processing]]></title>
+      <link href="http://codeanticode.wordpress.com/2011/11/21/opencv-2-in-processing/"/>
+      <updated>2011-11-21T23:17:38Z</updated>
+      <id>http://codeanticode.wordpress.com/?p=1429</id>
+      <author>
+        <name><![CDATA[Andres Colubri]]></name>
+        <uri>http://codeanticode.wordpress.com</uri>
+      </author>
+      <content type="html"><![CDATA[Xavier Hinault recently released a new computer vision library for Processing, based on JavaCV and OpenCV 2: JavacvPro. This is a great contribution to the community, since it appears that the development of the original OpenCV library for Processing has stalled, without moving beyond OpenCV 1.0 support. JavacvPro is based on the very solid JavaCV wrappers [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeanticode.wordpress.com&#038;blog=2105126&#038;post=1429&#038;subd=codeanticode&#038;ref=&#038;feed=1" width="1" height="1" />]]></content>
+    </entry>
   
 </feed>

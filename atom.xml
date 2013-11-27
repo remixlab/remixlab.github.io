@@ -3,7 +3,7 @@
   <title><![CDATA[RemixLab Feed Aggregator Meta Feed]]></title>
   <link href="http://remixlab.github.io/atom.xml" rel="self"/>
   <link href="http://remixlab.github.io/"/>
-  <updated>2013-11-23T21:19:42-05:00</updated>
+  <updated>2013-11-27T08:13:03-05:00</updated>
   <id>http://remixlab.github.io/atom.xml</id>
   <author>
     <name><![CDATA[RemixLab]]></name>
@@ -11,6 +11,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+    <entry>
+      <title type="html"><![CDATA[Proscene v2.0.0-alpha2 released]]></title>
+      <link href="http://nakednous.github.io/blog/2013/11/26/proscene-v2-dot-0-0-alpha2-released/"/>
+      <updated>2013-11-26T22:13:29Z</updated>
+      <id>http://nakednous.github.io/blog/2013/11/26/proscene-v2-dot-0-0-alpha2-released</id>
+      <author>
+        <name><![CDATA[Jean Pierre Charalambos]]></name>
+        <uri>http://nakednous.github.io</uri>
+      </author>
+      <content type="html"><![CDATA[<p>Proscene v2.0.0-alpha2 is out. Download it <a href="https://github.com/remixlab/proscene/releases/download/v-2.0.0-alpha.2/proscene-2.0.0-alpha.2.zip">here</a> 
+and extract it to your sketchbook <code>libraries</code> folder (automatic importing <em>proscene</em> from your PDE is only available for stable releases, currently v-1.2.0).</p>
+
+<p>Respect to the <a href="http://nakednous.github.io/blog/2013/10/26/proscene-v2-dot-0-0-alpha1-released/">first alpha</a>, this release implements full matrix handling in core,
+making possible to perform all geometry transformations directly by proscene2. Actually, this is part of a more general idea: to make it
+possible to run proscene2 within other contexts different than Processing. Please refer to the new example Basics.MatrixShader.
+I hope to give more details here soon.</p>
+
+<p>Currently, we are performing more experiments to decide what experimental stuff will make it into the upcoming cycle. We plan to release a pair or
+so of more alphas with our results before entering beta stage.</p>
+]]></content>
+    </entry>
   
     <entry>
       <title type="html"><![CDATA[Proscene v2.0.0-alpha1 released]]></title>

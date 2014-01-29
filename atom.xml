@@ -3,7 +3,7 @@
   <title><![CDATA[RemixLab Feed Aggregator Meta Feed]]></title>
   <link href="http://remixlab.github.io/atom.xml" rel="self"/>
   <link href="http://remixlab.github.io/"/>
-  <updated>2013-11-27T08:13:03-05:00</updated>
+  <updated>2014-01-29T09:53:19-05:00</updated>
   <id>http://remixlab.github.io/atom.xml</id>
   <author>
     <name><![CDATA[RemixLab]]></name>
@@ -11,6 +11,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+    <entry>
+      <title type="html"><![CDATA[Proscene v2.0.0-alpha3 Released]]></title>
+      <link href="http://nakednous.github.io/blog/2014/01/28/proscene-v2-dot-0-0-alpha3-released/"/>
+      <updated>2014-01-28T23:54:47Z</updated>
+      <id>http://nakednous.github.io/blog/2014/01/28/proscene-v2-dot-0-0-alpha3-released</id>
+      <author>
+        <name><![CDATA[Jean Pierre Charalambos]]></name>
+        <uri>http://nakednous.github.io</uri>
+      </author>
+      <content type="html"><![CDATA[<p>Proscene v2.0.0-alpha3 is out. Download it <a href="https://github.com/remixlab/proscene/releases/download/v-2.0.0-alpha.3/proscene-2.0.0-alpha.3.zip">here</a> 
+and extract it to your sketchbook <code>libraries</code> folder (automatic importing <em>proscene</em> from your PDE is only available for stable releases, currently v-1.2.0).</p>
+
+<p>This release completes the main functionality expected in proscene2 and also focuses on API stabilization. Thanks to collaborations with
+experimental computational designer <a href="https://twitter.com/AmnonOwed/media">Amnon Owed</a>, to whom we’re greatful, we’ve polished the
+KeyFrameInterpolator sub-system. We’ve also implemented view frustum 2D culling routines
+(please refer to the new example: <code>TwoD.WindowCulling</code>), thus completing the 2D functionality.</p>
+
+<p>We now enter the beta (sub)cycle which will focus on documentation completeness and bug fixing, to make the upcoming proscene2 as
+polished as possible.</p>
+]]></content>
+    </entry>
   
     <entry>
       <title type="html"><![CDATA[Proscene v2.0.0-alpha2 released]]></title>
